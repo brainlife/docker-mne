@@ -1,7 +1,7 @@
 
 set -e
 
-tag=0.22.0
+tag=0.23dev
 
 docker build -t brainlife/mne . 
 docker tag brainlife/mne brainlife/mne:$tag
